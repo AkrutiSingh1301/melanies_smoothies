@@ -40,5 +40,5 @@ if ingredients_list:
 
 
 
-smoothiefroot_response = requests.get("https://my.smoothiefroot.com/api/fruit")
+smoothiefroot_response = requests.get("https://fruityvice.com/api/fruit/all")
 st.text(smoothiefroot_response)
